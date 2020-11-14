@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
